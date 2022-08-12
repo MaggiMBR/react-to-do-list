@@ -20,7 +20,7 @@ function App() {
         <br />
         Open source on&nbsp;
         <a
-          href="https://github.com/MaggiMBR/calculator-app"
+          href="https://github.com/MaggiMBR/react-to-do-list"
           className="link-info"
         >
           GitHub.&nbsp;
