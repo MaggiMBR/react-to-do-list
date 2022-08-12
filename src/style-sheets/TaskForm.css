@@ -1,0 +1,37 @@
+/* Principal structure */
+.task-form {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Texto info */
+
+.task-input {
+  width: 350px;
+  background-color: white;
+  border: 2.5px solid #402a23;
+  border-radius: 5px 0 0 5px;
+  color: black;
+  font-size: 20px;
+  padding: 15px 18px 15px 15px;
+  outline: none;
+  margin: 0;
+}
+
+/* Button */
+
+.task-button {
+  background-color: #402a23;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: white;
+  cursor: pointer;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 22px;
+  padding: 13px 25px 18px 25px;
+  outline: none;
+  text-transform: capitalize;
+  margin: 0%;
+}

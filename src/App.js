@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import TaskList from "./components/TaskList";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div className="list">
+        <h1>THINGS TO DO </h1>
+        <TaskList />
+      </div>
+      <div className="coder-info">
+        Coded by 🇪🇨&nbsp;
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://www.linkedin.com/in/maggi-bastidas-013734104/"
           target="_blank"
-          rel="noopener noreferrer"
+          className="link-info"
         >
-          Learn React
+          M.B.
         </a>
-      </header>
+      </div>
     </div>
   );
 }
