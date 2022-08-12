@@ -17,6 +17,14 @@ function App() {
         >
           M.B.
         </a>
+        <br />
+        Open source on&nbsp;
+        <a
+          href="https://github.com/MaggiMBR/calculator-app"
+          className="link-info"
+        >
+          GitHub.&nbsp;
+        </a>
       </div>
     </div>
   );
